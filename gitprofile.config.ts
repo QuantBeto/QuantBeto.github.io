@@ -52,13 +52,13 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Tricia Van Laar',
+    title: 'Portfolio of Gilberto Gonzalez Robles',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'triciavanlaar',
-    twitter: 'tvanlaarmicro',
+    linkedin: '',
+    twitter: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -71,9 +71,9 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://tvanlaar.github.io',
+    website: 'https://QuantBeto.github.io',
     phone: '',
-    email: 'tvanlaar@csustan.edu',
+    email: 'gilgonzalez01@icloud.com',
   },
   resume: {
     fileUrl:
