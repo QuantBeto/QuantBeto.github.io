@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://QuantBeto.github.io/pdf/AWSMCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'pdf/AWSMCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Teaching', 'Bioinformatics', 'Biliteral',
