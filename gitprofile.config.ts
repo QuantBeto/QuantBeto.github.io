@@ -80,15 +80,15 @@ const CONFIG = {
       'https://QuantBeto.github.io/pdf/AWSMCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PCR', 'Bioinformatics', 'Teaching'
+    'Teaching', 'Bioinformatics', 'Biliteral',
   ],
   experiences: [
     {
-      company: 'CSU Stanislaus',
-      position: 'Assistant Professor',
-      from: 'August 2022',
-      to: 'Present',
-      companyLink: 'https://www.csustan.edu',
+      company: 'Stanislaus County Police Activities League',
+      position: 'Recreational Leader',
+      from: 'February 2020',
+      to: 'June 2023',
+      companyLink: 'https://www.stancopal.org',
     },
     {
       company: 'CSU Fresno',
@@ -100,9 +100,9 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
+      name: 'California State Biliteracy Seal',
+      body: 'Biliteracy Seal',
+      year: 'May 2019',
       link: 'https://example.com',
     },
   ],
