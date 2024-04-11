@@ -91,11 +91,11 @@ const CONFIG = {
       companyLink: 'https://www.stancopal.org',
     },
     {
-      company: 'CSU Fresno',
-      position: 'Assistant/Associate Professor',
-      from: 'August 2015',
-      to: 'August 2022',
-      companyLink: 'https://www.fresnostate.edu',
+      company: '',
+      position: '',
+      from: '',
+      to: '',
+      companyLink: '',
     },
   ],
   certifications: [
@@ -108,16 +108,10 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'CSU Fresno',
-      degree: 'MBA',
-      from: '2020',
+      institution: 'CSU Stanislaus',
+      degree: 'Batchelors',
+      from: '2019',
       to: '2024',
-    },
-    {
-      institution: 'University of Texas at San Antonio',
-      degree: 'PhD',
-      from: '2007',
-      to: '2012',
     },
   ],
   publications: [
