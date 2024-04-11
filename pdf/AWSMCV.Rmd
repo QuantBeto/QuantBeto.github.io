@@ -1,0 +1,53 @@
+---
+name: Gilberto
+surname: Gonzalez Robles
+position: "Student"
+profilepic: "Sketch.jpeg"
+pronouns: he/him
+address: "2826 Wishing Way"
+phone: +1 (209) 495 0500
+#www: mariecurie.com
+email: "gilgonzalez01@icloud.com"
+#twitter: mariecurie
+github: QuantBeto
+#linkedin: mariecurie
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 414141
+output:
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+```
+
+# About me
+
+ * I have a state biliteracy seal for Spanish and English.
+ * I am a first generation student.
+ * I did more stuff but I cant remember rn.
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Details,
+  "Batchelors in Biological Sciences", "Expected fall 2024", "California State University, Stanislaus", "Turlock, California", list("Minor in Chemical Scicences")
+) %>%
+  detailed_entries(Degree, Year, Institution, Where, Details)
+```
+
+# Awards
+
+```{r}
+library(tibble)
+tribble(
+  ~ Award, ~ Year,
+  "California State Biliteracy Seal", "2019",
+) %>%
+  detailed_entries(Award, Year, )
+```
